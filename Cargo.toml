@@ -1,0 +1,9 @@
+[package]
+name = "hidctl"
+version = "0.1.0"
+edition = "2021"
+description = "Small command-line utility for generic HID reports"
+license = "MIT"
+
+[dependencies]
+hidapi = { version = "2", features = ["macos-shared-device"] }
