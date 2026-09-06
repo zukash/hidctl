@@ -8,7 +8,7 @@ One-shot CLI for listing HID devices, selecting a device, and sending or receivi
 brew install zukash/tap/hidctl
 ```
 
-## Build from Source
+## Development
 
 ```sh
 cargo build --release
